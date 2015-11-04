@@ -1,0 +1,59 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Chainsmokers</title>
+
+    <!-- jQuery, Bootstrap -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+    <!-- Parse, jQuery Raty, Font Awesome -->
+	<script src="http://www.parsecdn.com/js/parse-1.6.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.raty.js"></script>
+			<script type="text/javascript" src="js/jquery.raty.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<!-- my docs -->
+	<script type="text/javascript" src="js/chainsmokers.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+	<!-- product info -->
+	<div class="container">
+		<img class="cs" src="http://inyourspeakers.com/files/images/news/the_chainsmokers-15674.jpg">
+		<h1>The Chainsmokers</h1>
+		<p>Average Rating:</p>
+		<div id="avgrating" class="readstars"></div>
+		<p>The Chainsmokers have become the hottest young American EDM DJ duo. Their live shows are becoming the most sought after in EDM. Their wild antics, hilarious personalities, and addicting productions have fans interacting with them non stop and running to see them live every chance they get. Their signature sound has its foundations in Indie, Progressive and Pop Music. On the production front, their original tracks have all reached the Beatport top charts and their remixes always hit #1 on the HypeM charts. They've gotten immense support by friends such as Nicky Romero, Steve Aoki, Pete Tong, Afrojack, Tiesto, and more.</p>
+	</div>
+
+	<!-- write a review -->
+	<div class="container">
+		<h3>Write a review</h3>
+		<form id="write">
+			<input class="form-control" id="writeStars" placeholder="1-5 Rating with 5 being the best" cols="50"></input>
+			<br>
+			<input class="form-control" id="writeTitle" placeholder="Your review title" cols="50"></input>
+			<br>
+			<textarea class="form-control" id="writeDesc" placeholder="Review goes here" rows="4" cols="50"></textarea>
+			<br>
+			<button class="btn btn-primary" type="submit">Submit</button>
+		</form>
+	</div>
+
+	<!-- review list -->
+    <div class="container">
+    	<h3>Fan reviews:</h3>
+        <div id="reviewlist"></div>
+    </div>
+</body>
+
+
+</html>
